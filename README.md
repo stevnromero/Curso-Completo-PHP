@@ -1,5 +1,5 @@
 # 📘 Curso Completo de PHP y MySQL  
-### Profesor: Víctor Oñana Flores  
+### Profesor: Víctor Arana Flores  
 
 ---
 
