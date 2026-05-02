@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: brown;
+    }
+
+    label{
+        color: white;
+    }
+
+</style>
+
+
+<body>
+    
+    <h1>Practica</h1>
+    <form action="preferencias.php" method ="post">
+        <label for="name">Nombre:</label>
+        <input type = "text" id="name" name="name" placeholder="escribe tu nombre" size="30px" required>
+        <br>
+
+        <label for="color">selecciona color favorito</label>
+        <select name="color" id="color">    
+            <option value="rojo">rojo</option>
+            <option value="verde">verde</option>
+            <option value="azul">azul</option>
+        </select>
+        
+        <br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
